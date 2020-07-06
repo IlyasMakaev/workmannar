@@ -11,7 +11,7 @@ $medium-color: #dde3ee;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -50,7 +50,9 @@ img{
     }
 
     .logoname{
-        padding: 1.5rem;
+        padding-top: 1.5rem;
+        padding-left: 1.5rem;
+        padding-bottom: 1rem;
         padding-right: 0.3rem;
         font-size: 2.5rem;
         color: $medium-color;
@@ -60,7 +62,7 @@ img{
 
     ul{
         display: flex;
-        padding: 1.5rem;    
+        padding: 1.2rem;    
         
     }
     
