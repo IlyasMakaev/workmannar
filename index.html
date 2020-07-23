@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mannar || Электрика</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/buttonanimation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/logofav2.png" type="image/png">
+    <script defer src="scripts/script.js"></script>
+    <script defer src="scripts/jquery.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+            <nav id="main-nav">
+                <div class="main">
+                <div class="logo-item">
+                <h1 class="logoname">MANNAR</h1>
+                <img src="/assets/logo2.png" alt="mannar_logo" id="logo">
+                </div>
+                    <ul>
+                        <li><a href="#showcase" class="current">Главная</a></li>
+                        <li><a href="#description" class="about">О нас</a></li>
+                        <li><a href="#what" class="service">Услуги</a></li>
+                    </ul>
+                 </div>
+
+                <div class="feedback">
+                    <p class="phone">+7(925)-999-99-99</p>
+                    <p class="email">email@list.ru</p>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+    <div id="showcase">
+        <div class="showcase-content" id="container" >
+            <h1 class="l-heading">
+                Mannar - это компания, которая сделает для вас:    
+            </h1>
+            <div class="the-first">
+
+            </div>
+            <a href="#get" class="btn" data-modal-target="#modal">
+                Оставить заявку
+            </a>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title"></div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <form class="modal-body" method="POST" data-netlify="true" name="contanct">
+                <div class = "h1">
+                    <div class = "left"><input type="text" placeholder="Введите имя" class="size1" name="name"></div>
+                    <div class = "right"><input type="text" placeholder="Введите фамилию" class="size1"name="name"></div>
+                </div>
+                    <div class = "emailpop"><input type="email" placeholder="Введите почту" class="size1" name="email"></div>
+                    <div class = "phonepop"><input type="text" placeholder="Введите номер телефона" class="size1" name="name">
+                    </div>
+
+                    <div class = ""><textarea type="text" placeholder="Опишите вашу проблему" class="size2" name="message"></textarea>
+                    </div>
+    
+                    <div class="sign_button">
+                        <button type="submit" class="btn" >
+                            Отправить
+                        </button>
+                    </div>
+            </form>
+    </div>
+    
+    </div>
+    <div id="overlay"></div>
+
+    <div id="description">
+        <div class="about">
+            <h2>Наша компания Mannar</h2>
+            <p class="about-container">Будет опорой и поддержкой вашему бесценному другу электричеству. Мы предоставляем любые услуги, ручаясь за каждого сотрудника, как за упорядочено направленную частицу в электрическом токе</p>
+        </div>
+
+        <div class="bottom_container">
+            <div class="item car">
+                <h3>Бесплатный выезд</h3>
+                <i class="fas fa-car fa2"></i>
+                <p>В услуги компании не входит оплата за вызов сотрудника в Москве и Московской области</p>
+            </div>
+            <div class="item garant">
+                <h3>Гарантия</h3>
+                <i class="fas fa-address-book fa2"></i>
+                <p>Мы гарантируем качество нашей работы от 1 до 5 лет</p>
+            </div>
+            <div class=" item exp">
+                <h3>Опыт</h3>
+                <i class="fas fa-briefcase fa2"></i>
+                <p>С 2004 года наши сотрудники выстраивали и закрепляли имя Mannar среди ведущих компаний на рынке</p>
+            </div>
+        </div>
+    </div>
+    <div id="what">
+        <h3 class="h3">Услуги</h3>
+        <div class = "whatcontainer">
+            <div class = "services" data-modal-target="#modal">
+                <div class="services-image">
+                    <img src="/assets/electrican.png" alt="">
+                </div>
+                <div class="services-text">
+                    <div class="services-text-wrap">
+                        <h2 class="services-text-title">Слаботочные системы питания</h2>
+                        <p class="services-text-category">Электрика</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "services" data-modal-target="#modal">
+                <div class="services-image">
+                    <img src="/assets/home_theater.PNG" alt="">
+                </div>
+                <div class="services-text">
+                    <div class="services-text-wrap">
+                        <p class="services-text-category">Домашние кинотетары и Hi-Fi</p>
+                        <h2 class="services-text-title">Домашние кинотетары и Hi-Fi</h2>
+                    </div>
+                </div>
+            </div>
+            <div class = "services" data-modal-target="#modal">
+                <div class="services-image">
+                    <img src="/assets/security.jpg" alt="">
+                </div>
+                <div class="services-text">
+                    <div class="services-text-wrap">
+                        <p class="services-text-category">Безопасность</p>
+                        <h2 class="services-text-title">Видеонаблюдение</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "services" data-modal-target="#modal">
+                <div class="services-image">
+                    <img src="/assets/ups.jpg" alt="">
+                </div>
+                <div class="services-text">
+                    <div class="services-text-wrap">
+                        <p class="services-text-category">Безопасность</p>
+                        <h2 class="services-text-title">Видеонаблюдение</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Если вы не нашли нужную вам услугу, то с большей вероятностью мы вас заверяем, что выполним ее</p>
+    </div>
+    <script src="https://kit.fontawesome.com/c2109858c1.js" crossorigin="anonymous"></script>
+    <footer class = 'footer'>
+        <div class="inn foot">
+            <p>ИНН:4843168131</p>
+            <p>ОГРН:465432153</p>
+            <p>КПП:465432181321</p>
+        </div>
+     
+        <div class="social foot">
+            <p>Мы в социальных сетях:</p>
+            <div>
+            <a class="links"><i class="fab fa-telegram icons"></i></a>
+            <a class="links"><i class="fab fa-whatsapp icons"></i></a>
+            <a href="https://instagram.com/makaevnariman?igshid=xfu8x7c1zqqa" class="links"><i class="fab fa-instagram icons"></i></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</body>
+</html>

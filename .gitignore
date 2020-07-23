@@ -1,0 +1,13 @@
+node_modules
+build
+.env
+npm-debug.log
+
+.idea
+.DS_Store
+package-lock.json
+yarn-error.log
+
+**/redux/page/mock
+
+dist
