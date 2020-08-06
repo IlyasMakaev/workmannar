@@ -65,7 +65,7 @@
     top: 50%;
     transform: translateY(-50%); }
   .services-text-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 0 1rem;
     margin: 5px 0 0 0; }
   .services-text-category {
@@ -372,3 +372,8 @@ img {
   .footer .links {
     color: #dde3ee;
     text-decoration: none; }
+
+.services-price {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; }
