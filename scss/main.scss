@@ -166,7 +166,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 430px;
+    height: 400px;
     background-color: $background-color;
     color: $medium-color;
 
@@ -277,8 +277,10 @@ img{
 }
 
 .services-price{
-    padding: 20px;
+    padding: 25px 18px;
     display: flex;
     justify-content: space-between;
 
 }
+
+
