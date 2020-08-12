@@ -86,37 +86,31 @@
     background-color: #3a5d94;
     transition: 0.3s; }
 
-@media (max-width: 1100px) {
-  .services-image img {
-    height: 250px !important; }
+@media (max-width: 1710px) {
   .services-text-title {
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   .services-text-category {
-    font-size: 1rem; }
+    font-size: 12px; } }
+
+@media (max-width: 1230px) {
+  .services-text-title {
+    font-size: 1.1rem; }
+  .services-text-category {
+    font-size: 10px; }
   .bottom_container {
     padding-top: 5px !important; } }
 
-@media (max-width: 815px) {
-  .l-heading {
-    padding-top: 6rem;
-    font-size: 2rem !important; }
-  .the-first {
-    font-size: 1.5rem !important; }
-  .about {
-    font-size: 1rem !important; }
-    .about .about-container {
-      font-size: 1rem !important;
-      padding-bottom: 2rem; }
-  .footer {
-    font-size: 0.8rem !important; }
-  .services-image img {
-    height: 250px !important; }
+@media (max-width: 1060px) {
   .services-text-title {
     font-size: 1rem; }
   .services-text-category {
-    font-size: 1rem; } }
+    font-size: 9px; } }
 
 @media (max-width: 870px) {
+  .whatcontainer {
+    grid-template-columns: repeat(1, 2fr);
+    max-width: 70%;
+    margin-left: 100px; }
   #main-nav .logo-item {
     padding-top: 1rem; }
   #main-nav ul {
@@ -132,10 +126,26 @@
   #description .bottom_container {
     margin: 1rem !important;
     max-width: 90% !important; }
-  .services-image img {
-    height: 180px !important; }
   .services-text-title {
-    font-size: 0.9rem; }
+    font-size: 1.5rem; }
+  .services-text-category {
+    font-size: 15px; } }
+
+@media (max-width: 815px) {
+  .l-heading {
+    padding-top: 6rem;
+    font-size: 2rem !important; }
+  .the-first {
+    font-size: 1.5rem !important; }
+  .about {
+    font-size: 1rem !important; }
+    .about .about-container {
+      font-size: 1rem !important;
+      padding-bottom: 2rem; }
+  .footer {
+    font-size: 0.8rem !important; }
+  .services-text-title {
+    font-size: 1.5rem; }
   .services-text-category {
     font-size: 0.9rem; } }
 
@@ -178,26 +188,38 @@
       flex-direction: column; }
   .whatcontainer {
     grid-template-columns: repeat(1, 1fr); }
-    .whatcontainer .services-image img {
-      height: 280px !important; }
+  .services-price {
+    padding: 10px 5px !important; }
   .footer .foot {
     margin: 0 1rem !important; } }
 
 @media (max-width: 640px) {
   .whatcontainer {
-    grid-template-columns: repeat(4, 1fr); }
-    .whatcontainer .services-text-title {
-      font-size: 0.7rem; }
-    .whatcontainer .services-text-category {
-      font-size: 0.7rem; }
-    .whatcontainer .services-image img {
-      height: 150px !important; } }
+    margin-left: 80px !important; }
+  .services-text-title {
+    font-size: 1.5rem; }
+  .services-text-category {
+    font-size: 0.8rem; } }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .whatcontainer {
-    grid-template-columns: repeat(1, 1fr); }
+    margin-left: 44px !important; }
+    .whatcontainer .services p:first-child {
+      display: none; }
+    .whatcontainer .services p:last-child {
+      display: none; }
+    .whatcontainer .services-price {
+      padding: 10px 5px; }
+    .whatcontainer .services-text-title {
+      font-size: 1rem;
+      padding: 0; }
+    .whatcontainer .services-text-category {
+      font-size: 8px; }
     .whatcontainer .services-image img {
       height: 280px !important; }
+    .whatcontainer .services .btn {
+      padding: 0.5rem 1rem;
+      font-size: 10px; }
   .footer .foot {
     font-size: 0.9rem !important; }
   .footer .social .icons {
@@ -206,6 +228,10 @@
   #description {
     padding-top: 1rem;
     padding-bottom: 1rem; } }
+
+@media (max-width: 350px) {
+  .services-text-category {
+    padding: 1px; } }
 
 * {
   margin: 0;
@@ -358,7 +384,10 @@ img {
   padding: 1rem 1.5rem;
   margin: auto;
   overflow: hidden;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   #what .h3 {
     padding-bottom: 1rem;
     font-size: 2rem; }

@@ -240,6 +240,9 @@ img{
     margin: auto;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .h3{
         padding-bottom: 1rem;
         font-size: 2rem;
