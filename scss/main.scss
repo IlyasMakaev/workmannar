@@ -166,7 +166,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 450px;
     background-color: $background-color;
     color: $medium-color;
 
@@ -188,6 +188,7 @@ img{
     
     .bottom_container{
         padding-top: 50px;
+        padding-bottom: 85px;
         display: flex;
         justify-content: space-between;
         text-align: center;
@@ -198,7 +199,7 @@ img{
         
         .item{
             width: 35rem;
-            height: 80%;
+            height: 100%;
   
             transition: all 1s ease-in-out;
             border-radius: 5px;
@@ -225,7 +226,8 @@ img{
             
             background-color: $medium-color;
             color: $background-color;
-            font-size: 1.04rem;
+            font-size: 1.06rem;
+            
             
             
         }

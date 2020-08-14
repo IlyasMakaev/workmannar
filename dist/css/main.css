@@ -92,6 +92,10 @@
   .services-text-category {
     font-size: 12px; } }
 
+@media (max-width: 1500px) {
+  .bottom_container {
+    padding-bottom: 45px !important; } }
+
 @media (max-width: 1230px) {
   .services-text-title {
     font-size: 1.1rem; }
@@ -340,7 +344,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 450px;
   background-color: #1f4a8f;
   color: #dde3ee; }
   #description .about {
@@ -354,6 +358,7 @@ img {
       margin-bottom: 1rem; }
   #description .bottom_container {
     padding-top: 50px;
+    padding-bottom: 85px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -363,7 +368,7 @@ img {
     height: 100%; }
     #description .bottom_container .item {
       width: 35rem;
-      height: 80%;
+      height: 100%;
       transition: all 1s ease-in-out;
       border-radius: 5px; }
     #description .bottom_container .car {
@@ -377,7 +382,7 @@ img {
     #description .bottom_container .item:hover {
       background-color: #dde3ee;
       color: #1f4a8f;
-      font-size: 1.04rem; }
+      font-size: 1.06rem; }
 
 #what {
   max-width: 1700px;
