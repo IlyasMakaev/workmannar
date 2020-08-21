@@ -121,6 +121,7 @@
 
 #overlay {
     position: fixed;
+    z-index: 5;
     opacity: 0;
     top: 0;
     left: 0;
